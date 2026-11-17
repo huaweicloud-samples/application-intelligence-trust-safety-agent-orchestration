@@ -1,0 +1,6 @@
+provider_installation {
+  dev_overrides {
+    "huaweicloud/huaweicloud" = "C:/Users/xiang/.terraform.d/plugins/dev-hwc"
+  }
+  direct {}
+}

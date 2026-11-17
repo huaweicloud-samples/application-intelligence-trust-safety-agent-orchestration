@@ -1,0 +1,117 @@
+﻿[0m[1mInitializing the backend...[0m
+
+terraform : [31m鈺?[0m[0m
+所在位置 行:445 字符: 247
++ ... afety-orchestration-agent/infra/dev.rc" ; terraform init 2>&1 | Out-F ...
++                                               ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31m鈺?[0m[0m:String) [], Remote 
+   Exception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1m[0mTerraform encountered problems d
+uring initialisation, including problems
+[31m鈹?[0m [0mwith the configuration, described below.
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mThe Terraform configuration must be valid before initialization 
+so that
+[31m鈹?[0m [0mTerraform can determine which modules and providers need to be i
+nstalled.[0m[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on main.tf line 324, in output "apig_endpoint":
+[31m鈹?[0m [0m 324:   [4mcount[0m = var.enable_apig ? 1 : 0[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn argument named "count" is not expected here.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on main.tf line 324, in output "apig_endpoint":
+[31m鈹?[0m [0m 324:   [4mcount[0m = var.enable_apig ? 1 : 0[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn argument named "count" is not expected here.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 1:
+[31m鈹?[0m [0m   1: [4moutput "vpc_id"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "vpc_id" was already defined at main.tf:299,1-16
+. Output
+[31m鈹?[0m [0mnames must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 1:
+[31m鈹?[0m [0m   1: [4moutput "vpc_id"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "vpc_id" was already defined at main.tf:299,1-16
+. Output
+[31m鈹?[0m [0mnames must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 11:
+[31m鈹?[0m [0m  11: [4moutput "subnet_id"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "subnet_id" was already defined at main.tf:303,1
+-19. Output
+[31m鈹?[0m [0mnames must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 11:
+[31m鈹?[0m [0m  11: [4moutput "subnet_id"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "subnet_id" was already defined at main.tf:303,1
+-19. Output
+[31m鈹?[0m [0mnames must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 31:
+[31m鈹?[0m [0m  31: [4moutput "dis_stream_name"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "dis_stream_name" was already defined at main.tf
+:319,1-25.
+[31m鈹?[0m [0mOutput names must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 31:
+[31m鈹?[0m [0m  31: [4moutput "dis_stream_name"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "dis_stream_name" was already defined at main.tf
+:319,1-25.
+[31m鈹?[0m [0mOutput names must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 56:
+[31m鈹?[0m [0m  56: [4moutput "apig_endpoint"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "apig_endpoint" was already defined at main.tf:3
+23,1-23.
+[31m鈹?[0m [0mOutput names must be unique within a module.
+[31m鈺?[0m[0m
+[31m鈺?[0m[0m
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mDuplicate output definition[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0m  on outputs.tf line 56:
+[31m鈹?[0m [0m  56: [4moutput "apig_endpoint"[0m {[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0mAn output named "apig_endpoint" was already defined at main.tf:3
+23,1-23.
+[31m鈹?[0m [0mOutput names must be unique within a module.
+[31m鈺?[0m[0m
