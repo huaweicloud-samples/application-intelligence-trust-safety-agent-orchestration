@@ -1,0 +1,16 @@
+﻿terraform : [31m鈺?[0m[0m
+所在位置 行:445 字符: 247
++ ... a/dev.rc" ; terraform plan -var-file=terraform.tfvars -out=plan.out 2 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31m鈺?[0m[0m:String) [], Remote 
+   Exception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31m鈹?[0m [0m[1m[31mError: [0m[0m[1mToo many command line arguments[0m
+[31m鈹?[0m [0m
+[31m鈹?[0m [0m[0mTo specify a working directory for the plan, use the global 
+-chdir flag.
+[31m鈺?[0m[0m
+
+For more help on using this command, run:
+  terraform plan -help

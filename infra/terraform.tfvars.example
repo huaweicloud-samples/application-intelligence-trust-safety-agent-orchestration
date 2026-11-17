@@ -1,0 +1,14 @@
+# 华为云凭据
+hw_access_key = "<YOUR_ACCESS_KEY>"
+hw_secret_key = "<YOUR_SECRET_KEY>"
+hw_region     = "cn-north-4"
+project_id    = "<YOUR_PROJECT_ID>"
+
+# 网络配置
+vpc_cidr    = "10.0.0.0/16"
+subnet_cidr = "10.0.1.0/24"
+
+# 资源开关 (默认关闭以避免费用)
+enable_database = false
+enable_redis    = false
+enable_apig     = false

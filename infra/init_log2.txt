@@ -1,0 +1,25 @@
+﻿[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+
+
+[33m鈺?[0m[0m
+[33m鈹?[0m [0m[1m[33mWarning: [0m[0m[1mProvider development overrides are in effect[0m
+[33m鈹?[0m [0m
+[33m鈹?[0m [0m[0mThe following provider development overrides are set in the CLI
+[33m鈹?[0m [0mconfiguration:
+[33m鈹?[0m [0m - huaweicloud/huaweicloud in C:\Users\xiang\.terraform.d\plugins\dev-hwc
+[33m鈹?[0m [0m
+[33m鈹?[0m [0mThese providers are not installed as part of init since they were
+[33m鈹?[0m [0moverwritten. If this is unintentional please re-run without the development
+[33m鈹?[0m [0moverrides set.
+[33m鈺?[0m[0m
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
